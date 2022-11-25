@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 25 Nov 2022 pada 05.45
+-- Waktu pembuatan: 25 Nov 2022 pada 16.21
 -- Versi server: 10.4.24-MariaDB
 -- Versi PHP: 7.4.29
 
@@ -52,8 +52,12 @@ CREATE TABLE `data_sekolah` (
 --
 
 INSERT INTO `data_sekolah` (`npsn`, `status`, `bentuk_pendidikan`, `nama_sekolah`, `sk_pendirian`, `tgl_pendirian`, `sk_izin_operasional`, `tgl_izin_operasional`, `alamat`, `rt`, `rw`, `dusun`, `desa`, `kecamatan`, `kabupaten_kota`, `provinsi`, `kode_pos`) VALUES
-('20224533', 'Negeri', 'SD', 'SD Lab UPI Tasik', 'PS/D/D/01/1997', '1997-01-03', 'PS/D/D/01/1997', '1997-01-03', 'Dadaha', '3', '2', '-', 'Dadaha', 'Tawang', 'Kota Tasikmalaya', 'Jawa Barat', '46151'),
-('20224540', 'Swasta', 'SMA', 'SMA Al Muttaqin Fullday School', '421.3/1146-Disdik/Di', '2013-12-31', '800/SMKM/TU/1981', '1999-09-09', 'Jl. Rumah Sakit Umum No. 29', '1', '7', 'Dusun', 'Desa', 'Kecamatan', 'Kota Tasikmalaya', 'Jawa Barat', '46113');
+('20101511', 'Negeri', 'TK', 'TK AL-USWAH', 'SP/O/TAAM/082/1909', '1909-01-18', 'SP/O/TAAM/082/1909', '1909-01-18', 'Kp. Pasantren', '1', '2', '-', 'Sukamaju Kidul', 'Indihiang', 'Kota Tasikmalaya', 'Jawa Barat', '46151'),
+('20178976', 'Swasta', 'SD', 'SDN INDIHIANG TASIKMALAYA', 'PD/O/ST/094/1945', '1945-01-17', 'PD/O/ST/094/1945', '1945-01-17', 'Jl Ibrahim Adjie', '6', '8', '-', 'Indihiang', 'Indihiang', 'Kota Tasikmalaya', 'Jawa Barat', '46151'),
+('20224533', 'Swasta', 'SD', 'SD Lab UPI Tasik', 'PS/D/D/01/1997', '1997-01-03', 'PS/D/D/01/1997', '1997-01-03', 'Dadaha', '3', '2', '-', 'Dadaha', 'Tawang', 'Kota Tasikmalaya', 'Jawa Barat', '46151'),
+('20224539', 'Swasta', 'SMP', 'SMP Muhammadiyah Cianjur', 'TS/SP/TSL/089/1992', '1995-03-12', 'TS/SP/TSL/089/1992', '1995-03-12', 'Jl. Adi Sucipto', '6', '8', '-', 'Sayang', 'Cianjur', 'Cianjur', 'Jawa Barat', '46151'),
+('20224540', 'Swasta', 'SMA', 'SMA Al Muttaqin Fullday School', '421.3/1146-Disdik/Di', '2013-12-31', '421.3/1146-Disdik/Di', '2003-12-31', 'Jl. Rumah Sakit Umum No. 29', '1', '7', '-', 'Pancasila', 'Kecamatan', 'Kota Tasikmalaya', 'Jawa Barat', '46113'),
+('20224553', 'Swasta', 'SMK', 'SMK Muhammadiyah Tasikmalaya', '800/SMKM/TU/1981', '1981-01-07', '800/SMKM/TU/1981', '1981-01-07', 'Jl Rumah Sakit Umum No.29', '9', '5', '-', 'Empangsari', 'Tawang', 'Kota Tasikmalaya', 'Jawa Barat ', '46113');
 
 --
 -- Indexes for dumped tables
